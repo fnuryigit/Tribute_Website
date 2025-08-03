@@ -23,16 +23,9 @@ Projede kullandığımız görselleri aşağıda görebilirsiniz:
 
 ![1](gıthub/1.png)  
 ![2](gıthub/2.png)  
-![3](gñthub/3.png)  
+![3](gıthub/3.png)  
 
----
 
-## Teknolojiler
-
-- HTML5  
-- CSS3  
-
----
 
 © 2025 Fatma Nur Yiğit - Ödev
 
