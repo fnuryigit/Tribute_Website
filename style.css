@@ -1,0 +1,187 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #dce3dc; 
+  color: #4e4b45; 
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: #4e4b45;
+  color: #f6f5f3;
+  padding: 1.5rem 0;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: #f6f5f3; 
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  position: relative;
+  text-align: left;
+  padding: 3rem 1rem;
+  background-color: #c9cec9; 
+  color: #4e4b45;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.hero-image {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  opacity: 0.95;
+  transition: opacity 0.3s ease;
+}
+
+blockquote {
+  font-size: 1.3rem;
+  font-style: italic;
+  max-width: 600px;
+  margin: auto;
+  color: #5f5d57; 
+}
+
+.giris {
+  background-color: #e8ede8;
+  padding: 2rem 1rem;
+  text-align: center;
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+}
+
+#giris p {
+  max-width: 700px;
+  margin: auto;
+}
+
+#hakkinda,
+#egitim-ve-hayati,
+#edebiyattaki-onemi {
+  padding: 2rem;
+  text-align: center;
+  background-color: #e3e8e3;
+  color: #4e4b45;
+}
+
+#edebiyattaki_onemi {
+  padding: 2rem;
+  text-align: center;
+  background-color: #e3e8e3;
+  color: #4e4b45;
+}
+
+#Books {
+  padding: 2rem;
+  background-color: #dce3dc;
+  text-align: center;
+}
+
+#kitaplar {
+  padding: 2rem;
+  background-color: #dce3dc;
+  text-align: center;
+}
+
+.profil {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border: 3px solid #4e4b45;
+}
+
+.kitaplar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.kitap {
+  background-color: #fdfdfb; 
+  padding: 1rem;
+  width: 220px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(78, 75, 69, 0.1);
+  transition: transform 0.2s;
+  color: #4e4b45;
+}
+
+.kitap:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(78, 75, 69, 0.2);
+}
+
+.kitap img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 0.5rem;
+}
+
+footer {
+  background-color: #4e4b45;
+  color: #f6f5f3;
+  text-align: center;
+  padding: 1.5rem 0;
+  margin-top: 3rem;
+}
+
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .hero {
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+
+  blockquote {
+    font-size: 1.1rem;
+    padding: 0 1rem;
+  }
+
+  .kitaplar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .kitap {
+    width: 90%;
+  }
+
+  .profil {
+    width: 150px;
+    height: 150px;
+  }
+}
