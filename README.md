@@ -8,7 +8,7 @@ Bu proje, seçtiğiniz yazar veya edebi figür için hazırlanan bir tribute web
 ## Sayfa Bölümleri ve Görseller
 
 1. **Anasayfa**  
-   ![Anasayfa Görseli](1.png)  
+   ![Anasayfa Görseli](github/1.)  
    *Yazarın portresi ve giriş bölümü.*
 
 2. **Hakkında**  
